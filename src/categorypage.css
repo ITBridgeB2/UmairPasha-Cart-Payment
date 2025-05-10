@@ -1,0 +1,110 @@
+/* General Page Container */
+.category-container {
+  display: flex;
+  flex-direction: column; /* Stacks the items vertically */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+/* Category Item Style */
+.category-item {
+  text-align: center;
+  margin: 20px 0; /* Adds space between the items */
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for category items */
+.category-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Style */
+.category-item img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect for images */
+.category-item img:hover {
+  transform: scale(1.05);
+}
+
+/* Button Style */
+.category-item button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for buttons */
+.category-item button:hover {
+  background-color: #45a049;
+}
+.category-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px; /* Give space for the logout button */
+  position: relative;
+}
+
+.logout-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+
+.category-item {
+  margin: 20px;
+  text-align: center;
+}
+
+.category-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.category-item button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border-radius: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.category-item button:hover {
+  background-color: #388e3c;
+}
